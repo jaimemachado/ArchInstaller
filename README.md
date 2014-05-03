@@ -28,6 +28,7 @@ should be run from the [Arch Linux install ISO](https://www.archlinux.org/downlo
     * LXDE
     * MATE
     * XFCE
+    * XBMC
   * Automated hardware detection and driver installation. See below.
   * Installations can be sped up via the use of an NFS cache. See below.
   * Power management *"out of the box"*.

@@ -9,3 +9,5 @@ CORE_PKG=$(basename ${0} .sh)
 MORE_PKGS=""
 
 packer -S --noedit --noconfirm ${CORE_PKG} ${MORE_PKGS}
+
+systemctl enable couchpotato
