@@ -22,7 +22,7 @@ function install {
     tar zxvf package-query.tar.gz
     cd package-query
     echo "Installing package-query ..."
-    makepkg -si --noconfirm
+    makepkg -si --noconfirm --needed
     cd ..
     echo "Retrieving yaourt ..."
     curl -O https://aur.archlinux.org/packages/ya/yaourt/yaourt.tar.gz
@@ -30,7 +30,7 @@ function install {
     tar zxvf yaourt.tar.gz
     cd yaourt
     echo "Installing yaourt ..."
-    makepkg -si --noconfirm
+    makepkg -si --noconfirm --needed
     echo "Done!"
   fi  
 }

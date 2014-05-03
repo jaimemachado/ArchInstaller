@@ -1,0 +1,8 @@
+alsa-utils
+dhcpcd
+pavucontrol
+samba
+smbnetfs
+sudo
+vim
+xbmc
