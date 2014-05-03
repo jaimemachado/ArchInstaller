@@ -10,4 +10,4 @@ MORE_PKGS=""
 
 packer -S --noedit --noconfirm ${CORE_PKG} ${MORE_PKGS}
 
-systemctl enable utserver
+prelink -au

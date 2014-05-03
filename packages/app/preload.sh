@@ -10,4 +10,6 @@ MORE_PKGS=""
 
 packer -S --noedit --noconfirm ${CORE_PKG} ${MORE_PKGS}
 
-systemctl enable utserver
+echo "#!/bin/bash" > /etc/cron.daily/prelink
+echo "[[ -x /usr/bin/prelink ]] && /usr/bin/prelink -amR &>/dev/null" >> /etc/cron.daily/prelink
+chmod 755 /etc/cron.daily/prelink

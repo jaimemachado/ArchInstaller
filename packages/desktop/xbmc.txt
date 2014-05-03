@@ -5,4 +5,5 @@ samba
 smbnetfs
 sudo
 vim
+openssh
 xbmc

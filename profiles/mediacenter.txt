@@ -1,0 +1,10 @@
+packages/mediacenter/couchpotato-git.sh
+packages/mediacenter/filebot.sh
+packages/mediacenter/headphones-git.sh
+packages/mediacenter/maraschinoproject-git.sh
+packages/mediacenter/sabnzbd.sh
+packages/mediacenter/sickbeard-git.sh
+packages/mediacenter/utorrent-server.sh
+packages/mediacenter/mpd.sh
+packages/app/preload.sh
+packages/app/prelink.sh
